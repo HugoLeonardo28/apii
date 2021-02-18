@@ -5,6 +5,7 @@ import br.com.api.dto.ClienteEnderecoDTO;
 import br.com.api.repository.entities.ClienteContato;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.http.ContentType;
+import lombok.SneakyThrows;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
