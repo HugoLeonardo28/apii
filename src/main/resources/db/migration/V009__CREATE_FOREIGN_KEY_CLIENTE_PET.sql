@@ -1,0 +1,1 @@
+ALTER TABLE cliente_pet ADD CONSTRAINT cliente_pet_pet_fk FOREIGN KEY (pet_id) REFERENCES pet(pet_id);
