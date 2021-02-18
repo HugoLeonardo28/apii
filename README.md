@@ -9,7 +9,7 @@ Micro Serviço para cadastro, listagem e edição de cliente, endereço, contato
 1. Aplicação esta preparada para dispobilizar e validar token seguindo o padrão Oauth - grant_type ***password*** 
    Para fazer autenticação use os seguintes dados:
    
-    - cliente_id : petz
+    - cliente_id : apii
     - senha : senha123
     - username : teste@teste.com
     - senha : senha123
