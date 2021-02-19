@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: 'apii'
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: https://api-hugo-leonardo.herokuapp.com

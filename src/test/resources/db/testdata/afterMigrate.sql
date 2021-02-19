@@ -16,10 +16,10 @@ INSERT INTO cliente VALUES (200, 200, 'NOME TESTE 2', 'MASCULINO', now(), '165.8
 INSERT INTO cliente VALUES (300, 300, 'NOME TESTE 3', 'FEMININO', now(), '821.661.020-34', true);
 INSERT INTO cliente VALUES (400, 400, 'NOME TESTE 4', 'FEMININO', now(), '657.591.000-92', true);
 
-INSERT INTO pet VALUES (100, 'teste-nome', 'teste-tipo', 'teste-raca', 'teste-cor', 'MEDIO', 'MACHO', now(), 20, true);
-INSERT INTO pet VALUES (200, 'teste-nome 2', 'teste-tipo 2', 'teste-raca 2', 'teste-cor 2', 'MEDIO 2', 'MACHO', now(), 20, true);
-INSERT INTO pet VALUES (300, 'teste-nome 3', 'teste-tipo 3', 'teste-raca 3', 'teste-cor 3', 'GRANDE 3', 'FEMEA', now(), 20, true);
-INSERT INTO pet VALUES (400, 'teste-nome 4', 'teste-tipo 4', 'teste-raca 4', 'teste-cor 4', 'PEQUENO 4', 'FEMEA', now(), 20, true);
+INSERT INTO pet VALUES (100, 100, 'teste-nome', 'teste-tipo', 'teste-raca', 'teste-cor', 'MEDIO', 'MACHO', now(), 20, true);
+INSERT INTO pet VALUES (200, 200, 'teste-nome 2', 'teste-tipo 2', 'teste-raca 2', 'teste-cor 2', 'MEDIO 2', 'MACHO', now(), 20, true);
+INSERT INTO pet VALUES (300, 300, 'teste-nome 3', 'teste-tipo 3', 'teste-raca 3', 'teste-cor 3', 'GRANDE 3', 'FEMEA', now(), 20, true);
+INSERT INTO pet VALUES (400, 400, 'teste-nome 4', 'teste-tipo 4', 'teste-raca 4', 'teste-cor 4', 'PEQUENO 4', 'FEMEA', now(), 20, true);
 
 INSERT INTO cliente_pet VALUES (100, 100);
 INSERT INTO cliente_pet VALUES (200, 200);
@@ -37,6 +37,6 @@ INSERT INTO cliente_endereco VALUES(300, 300, 'Rua Teste 3', 'Residencial 3', '1
 INSERT INTO cliente_endereco VALUES(400, 400, 'Rua Teste 4', 'Residencial 4', '12345-000', 'SP', 'São Paulo', 'Vila Teste 4', 1, 'Complemento teste 4', true);
 
 insert into oauth_client_details values ('foo', null, '$2y$12$M7b32uoClK2qgzTzPMdw.usB84i3JzZ2mDbNl/7wPVnt.BxUucenC',
-'READ,WRITE','password,refresh_token', null, null, 300, 420, null, null);
+'READ,WRITE','password,refresh_token', null, null, 3000, 4200, null, null);
 insert into oauth_client_details values ('apii', null, '$2y$12$/iDUcKjK8J2sADu10DMpLOC1lQeW1LmpNBAUE6.N5wyBKKu2ZLEiC',
-'READ,WRITE','password,refresh_token', null, null, 300, 420, null, null);
+'READ,WRITE','password,refresh_token', null, null, 3000, 4200, null, null);

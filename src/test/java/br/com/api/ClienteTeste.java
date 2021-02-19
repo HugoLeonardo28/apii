@@ -16,7 +16,6 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@TestPropertySource("/application-test.properties")
 public class ClienteTeste extends ApiiTeste {
 
     @Test

@@ -17,13 +17,13 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@TestPropertySource("/application-test.properties")
 public class PetTeste extends ApiiTeste {
 
     @Test
     public void deveRetornar201PostNovoPet() {
 
         final PetDTO petDTO = criarPetDTO();
+        petDTO.setClienteId(100L);
 
         given()
                 .contentType(ContentType.JSON)

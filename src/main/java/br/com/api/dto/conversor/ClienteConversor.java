@@ -82,7 +82,11 @@ public class ClienteConversor implements Conversor<ClienteDTO, Cliente> {
         ).collect(Collectors.toList());
 
         final List<Pet> petList = dto.getPets().stream().map(
-                petDTO -> petConversor.converterParaEntidade(petDTO)
+                petDTO -> {
+                    Pet pet = petConversor.converterParaEntidade(petDTO);
+                    pet.setCliente(cliente);
+                    return pet;
+                }
         ).collect(Collectors.toList());
 
         final List<ClienteEndereco> enderecoList = dto.getEnderecos().stream().map(
