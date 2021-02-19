@@ -18,4 +18,8 @@ Micro Serviço para cadastro, listagem e edição de cliente, endereço, contato
 
     - url : http://localhost:8082/apii/swagger-ui.html
 
+3. Como alternativa é possivel acessar url da aplicação deployada no Heroku.
+    
+    - url : https://apii-hleocruz.herokuapp.com/api/swagger-ui.html
+
 3. Para qualquer duvida ou questionamento estou a disposição.
